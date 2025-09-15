@@ -3,7 +3,7 @@ const pageConfig = {
   title: "监控面板",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://blog.xo.je', label: '博客', highlight: true },
+    { link: 'https://blog.xo.je/?i=1', label: '博客', highlight: true },
     { link: 'https://ssass001-gost.hf.space', label: 'MoonTV', highlight: true },
     { link: 'https://tv.goyo123.giize.com/', label: 'CF反代MoonTV', highlight: true }, 
   ],
