@@ -18,7 +18,7 @@ const workerConfig = {
   monitors: [
        {
       id: 'MoonTV抱脸',
-      name: '抱脸',
+      name: 'MoonTV抱脸',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -40,7 +40,7 @@ const workerConfig = {
     },
     {
       id: 'MoonTV爪云',
-      name: '爪云',
+      name: 'MoonTV爪云',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
