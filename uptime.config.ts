@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://blog.xo.je', label: '博客', highlight: true },
-    { link: 'https://ssass001-gost.hf.space', label: 'MoonTV'}, 
+    { link: 'https://ssass001-gost.hf.space', label: 'MoonTV', highlight: true }, 
   ],
 }
 
@@ -16,8 +16,8 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
        {
-      id: 'MoonTV',
-      name: 'MoonTV',
+      id: 'MoonTV抱脸',
+      name: '抱脸',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -35,6 +35,17 @@ const workerConfig = {
       target: 'https://blog.xo.je',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://blog.xo.je',
+      timeout: 10000,
+    },
+    {
+      id: 'MoonTV爪云',
+      name: '爪云',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
       timeout: 10000,
     },
   ],
